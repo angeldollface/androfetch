@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Androfetch</string>
+    <string name="deviceIdText">Geraet</string>
+    <string name="androidVersionText">Android Version</string>
+    <string name="upTimeText">Betriebszeit</string>
+    <string name="codeNameText">Deckname</string>
+</resources>
