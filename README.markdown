@@ -21,9 +21,9 @@ Once the app is installed, simply open it and behold the statistics!
 
 ***IMPORTANT INFORMATION: You are free to modify, redistribute, and do whatever you wish with this app. You are not allowed, however, to sell this app!***
 
-Before attempting to make a build, please make sure you have the Java JDK installed and Android Studio. To make a release build, click on the "Build" tab, click on "Generate Signed Bundle/APK", import or create a keystore and let Android Studio guide you through the rest of the process.
+Before attempting to make a build, please make sure you have the Java JDK installed and Android Studio. To make a release build, click on the "Build" tab, click on "Generate Signed Bundle/APK", import or create a keystore, and let Android Studio guide you through the rest of the process.
 
 ## NOTE :scroll:
 
-- *Androfetch :robot: :gear.* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
+- *Androfetch :robot: :gear:.* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
 - Licensed under the GNU GPL v3.
