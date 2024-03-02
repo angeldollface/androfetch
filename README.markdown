@@ -8,16 +8,34 @@ Since I recently got a Pixel device and love to tinker with my devices and wante
 Since I'm used to running *Neofetch* on nearly all my devices, I thought it would be cool to have an app that serves a similar purpose. This repository contains the source code for this app. 
 I learned a lot and learned how to program in Java. Enjoy. :heart:
 
+## SCREENSHOT :camera:
+
+<p align="center">
+ <img src="screenshot/screenie.png"/>
+</p>
+
 ## INSTALLATION :inbox_tray:
 
-To install *Androfetch*, simply head over to this repository's [`Releases`](https://github.com/angeldollface/androfetch/releases) and download the APK for your acrhitecture.
-You may have to allow your browser to install APK files from "Unknown Sources".
+To install *Androfetch*, simply head over to this repository's [`Releases`](https://github.com/angeldollface/androfetch/releases) and download the APK for your architecture. You may have to allow your browser to install APK files from "Unknown Sources". The following architectures have bundles:
 
-## USAGE
+- ARM v8a
+- ARM v7a EABI
+- x86 64-bit
+- x86 32-bit
+
+## USAGE :hammer:
 
 Once the app is installed, simply open it and behold the statistics!
 
-## BUILDING FROM SOURCE
+Currently supported statistics include:
+
+- Device Manufacturer
+- Device Model Name
+- Device Codename
+- Device Uptime
+- Device Android Version
+
+## BUILDING FROM SOURCE :hammer_and_pick:
 
 ***IMPORTANT INFORMATION: You are free to modify, redistribute, and do whatever you wish with this app. You are not allowed, however, to sell this app!***
 
