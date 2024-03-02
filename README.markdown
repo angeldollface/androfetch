@@ -69,6 +69,12 @@ sdk.dir=location_of_your_android_sdk_installation
 
 `location_of_your_android_sdk_installation` refers to the path of the root of your installation of the Android SDK.
 
+You will also need to generate Gradle's wrapper file inside the project root's `gradle` directory. To generate this automatically, please run the following command from the project root:
+
+```bash
+gradle wrapper
+```
+
 ### Making a release build
 
 - Create a file called `keystore.properties` at the root of this project and put the following inside:
