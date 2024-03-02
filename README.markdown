@@ -1,5 +1,5 @@
 <p align="center">
- <img src="logo/logo.png" style="width:150px;height:150px"/>
+ <img src="logo/logo.png" style="width:300px;height:300px"/>
 </p>
 
 # ANDROFETCH :robot: :gear:
@@ -61,6 +61,14 @@ keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -valid
 
 Replace `my-release-key.jks` with the desired filename and `my-alias` with the desired alias.
 
+For both debug builds and release builds you will need to instruct Gradle on where your Android SDK is installed. To do so, create a file called `local.properties` at the root of this project and put the following inside it:
+
+```text
+sdk.dir=location_of_your_android_sdk_installation
+```
+
+`location_of_your_android_sdk_installation` refers to the path of the root of your installation of the Android SDK.
+
 ### Making a release build
 
 - Create a file called `keystore.properties` at the root of this project and put the following inside:
@@ -73,7 +81,7 @@ storeFile=key_store_path
 ```
 - `your_password_for_your_keystore` is a placeholder for your actual password of your actual keystore. `keystore_alias` is a placeholder for your keystore's alias and `key_store_path` is a placeholder for the path to your keystore.
 
-- Run the following command from the root of this project:
+- Run the following command from the root of this project to build the project:
     - Windows: `./gradlew.bat assembleRelease`
     - Nix: `./gradlew assembleRelease`
 
@@ -81,30 +89,19 @@ storeFile=key_store_path
 
 ### Making a debug build
 
-- Create a file called `local.properties` at the root of this project and put the following inside it:
-
-```text
-sdk.dir=location_of_your_android_sdk_installation
-```
-
-- `location_of_your_android_sdk_installation` refers to the path of the root of your installation of the Android SDK.
-
-- To make a debug build for testing run this command from the root of this project:
-
-- Windows:
-
-```bash
-./gradlew.bat assembleDebug
-```
-
-- Nix:
-```bash
-./gradlew assembleDebug
-```
+- To make a debug build for testing, run this command from the root of this project:
+    - Windows: `./gradlew.bat assembleDebug`
+    - Nix: `./gradlew assembleDebug`
 
 ## PROBLEMS :thinking:
 
 If you encounter any problems or difficulties, please open an issue [here](https://github.com/angeldollface/androfetch/issues).
+
+## CONTRIBUTING :people_hugging:
+
+To contribute code, fork this repository, clone the repository, make your changes, test your changes, push your changes, and file a pull request.
+
+To make feature requests, please file an issue [here](https://github.com/angeldollface/androfetch/issues).
 
 ## CHANGELOG :black_nib:
 
